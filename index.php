@@ -59,19 +59,18 @@ unset($_SESSION['SESS_LAST_NAME']);
 
 
             <li>
-                <div class="form-group input-group">
-                    <span class="input-group-addon"><i class="fa fa-tag"  ></i></span><!--for get small icon-->
-                    <input type="text"  name="username" class="form-control" placeholder="Your Username " required/><!--for get input field-->
-                </div>
-
+                 
+                     <input type="text"  name="username" class="form-control" placeholder="Your Username " style ="width:100%" required/><!--for get input field-->
             </li>
 
-            <li>
-                <div class="form-group input-group">
-                    <span class="input-group-addon"><i class="fa fa-lock"  ></i></span>
-                    <input type="password" name="password" class="form-control"  placeholder="Your Password" required/>
-                </div>
-            </li>
+           
+                 
+				 <li>
+                     
+                    <input type="password" name="password" class="form-control"  placeholder="Your Password" style ="width:100%" required/>
+					</li>
+                 
+            
 
 
 
